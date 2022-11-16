@@ -7,7 +7,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Twitter"),
+        title: Image.asset(
+          "assets/twitter2.png",
+          height: 35,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -62,8 +65,19 @@ class HomeScreen extends StatelessWidget {
                               ),
                             ),
                           ),
-                          Text(
-                            "5:16 PM . 2022-10-28 . Twitter for iPhone",
+                          Row(
+                            children: [
+                              Text(
+                                "5:16 PM .",
+                              ),
+                              Text(
+                                "2022-10-28 .",
+                              ),
+                              Text(
+                                "Tweetbot for iPhone",
+                                style: TextStyle(color: Colors.blue),
+                              ),
+                            ],
                           ),
                           Container(
                             child: Padding(
@@ -141,8 +155,19 @@ class HomeScreen extends StatelessWidget {
                               ),
                             ),
                           ),
-                          Text(
-                            "5:16 PM . 2022-10-28 . Tweetbot for iOS",
+                          Row(
+                            children: [
+                              Text(
+                                "5:16 PM .",
+                              ),
+                              Text(
+                                "2022-10-28 .",
+                              ),
+                              Text(
+                                "Tweetbot for iOS",
+                                style: TextStyle(color: Colors.blue),
+                              ),
+                            ],
                           ),
                           Container(
                             child: Padding(
@@ -220,8 +245,19 @@ class HomeScreen extends StatelessWidget {
                               ),
                             ),
                           ),
-                          Text(
-                            "5:16 PM . 2022-10-28 . Twitter for iPhone",
+                          Row(
+                            children: [
+                              Text(
+                                "5:16 PM .",
+                              ),
+                              Text(
+                                "2022-10-28 .",
+                              ),
+                              Text(
+                                "Tweetbot for iPhone",
+                                style: TextStyle(color: Colors.blue),
+                              ),
+                            ],
                           ),
                           Container(
                             child: Padding(
