@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Image.asset(
-          "assets/twitter2.png",
+          "assets/twitter.png",
           height: 35,
         ),
       ),
